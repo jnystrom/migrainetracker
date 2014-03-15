@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="700aabd1-b70e-4a8e-b6e3-3f284f491e85" ChangeDateTime="10/30/2012 03:14:48">
+    <Property Name="ElementName" Value="[dbo].[UserCondition].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserCondition]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="251c973f-7615-40cb-857b-261ec744850b" ChangeDateTime="10/30/2012 03:19:52">
+    <Property Name="ElementName" Value="[dbo].[ConditionType].[ConditionTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConditionType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ConditionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76f3c3eb-65df-4993-a9bb-04c15abbd0a3" ChangeDateTime="10/30/2012 03:23:03">
+    <Property Name="ElementName" Value="[dbo].[MedHistory].[ConditionTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MedHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ConditionId" />
+  </Operation>
+</Operations>
